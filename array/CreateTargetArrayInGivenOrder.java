@@ -20,7 +20,7 @@ public class CreateTargetArrayInGivenOrder {
         for (int i = 0; i < nums.length; i++) {
             ansList.add(index[i], nums[i]);
         }
- 
+
         for (int i = 0; i < nums.length; i++) {
             ans[i] = ansList.get(i);
         }
